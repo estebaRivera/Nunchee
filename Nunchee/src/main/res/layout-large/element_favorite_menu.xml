@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="660dp"
+    android:layout_height="135dp">
+
+        <LinearLayout
+            android:id="@+id/contenedor_boton_borrar"
+            android:layout_alignParentRight="true"
+            android:layout_height="120dp"
+            android:layout_width="75dp">
+
+            <Button
+                android:id="@+id/boton_borrar"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_red_light"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Delete"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/contenedor_programa_favorito"
+            android:layout_height="120dp"
+            android:layout_width="660dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:background="@drawable/backdrop_placeholder"
+                android:id="@+id/imagen_canal"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" />
+
+            <ImageView
+
+                android:background="@drawable/back_backdrop"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:id="@+id/favorito_nombre_programa"
+                android:textColor="@android:color/white"
+                android:text="Ghost Whisperer"
+                android:textSize="19sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="45dp"
+                android:layout_alignParentBottom="true"/>
+
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/favorito_nombre_canal"
+                android:textColor="@android:color/white"
+                android:text="Sony HD"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+            <ImageView
+                android:id="@+id/favorito_corazon"
+                android:src="@drawable/heart_fav_admin"
+
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"
+                android:layout_height="50dp"
+                android:layout_width="50dp" />
+        </RelativeLayout>
+
+</RelativeLayout>

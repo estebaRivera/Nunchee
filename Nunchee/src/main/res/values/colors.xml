@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="categorias_trp">#11A4A6</color>
+    <color name="categorias">#CC2DBBBC</color>
+    <color name="tw_activado">#25C8FF</color>
+    <color name="tw_desactivado">#1B91B7</color>
+
+    <color name="menu_desactivado">#2DBBBC</color>
+    <color name="menu_activado">#249B9B</color>
+    <color name="menu_activado_2">#229393</color>
+
+
+</resources>
